@@ -173,9 +173,12 @@ nav a:hover {
 }
 
 .btn .btn2 {
+    background-color: rgb(24, 24, 59);
     color: blue;
-    border-radius: 5;
+    border: 1px solid blue;
     padding: 10px 10px;
+    margin-left: 5px;
+    border-radius : 5px;
 
 
 }
