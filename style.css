@@ -28,6 +28,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
+    
 }
 
 .logo {
@@ -92,6 +93,11 @@ nav a:hover {
         flex-direction: column;
     }
 
+    nav .logo{
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
     nav li {
         display: block;
         padding: 10px 0;
@@ -105,11 +111,13 @@ nav a:hover {
 
 
 
+
     .menu {
         display: block;
         position: absolute;
         right: 20px;
-        top: 25px;
+        top: 20px;
+        
     }
 
     .showmenu {
